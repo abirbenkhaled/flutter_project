@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import'delayed_animation.dart';
 import 'main.dart';
+import'projet2.dart';
+import'book.dart';
 class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -83,7 +85,7 @@ class LoginPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => MyApp(),
+                      builder: (context) => projet2(),
                     ),
                   );
                 },
