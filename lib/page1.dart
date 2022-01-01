@@ -14,7 +14,7 @@ class page1 extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Luxury cars gallery'),
+      home: const MyHomePage(title: 'Les projets'),
     );
   }
 }

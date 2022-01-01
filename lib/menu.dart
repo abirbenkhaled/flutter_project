@@ -12,9 +12,9 @@ class menu extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        cardColor: Color.fromRGBO(245, 118, 245, 1.0),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Welcome'),
     );
   }
 }
